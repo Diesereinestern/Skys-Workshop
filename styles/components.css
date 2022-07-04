@@ -5,7 +5,7 @@
   background-color: transparent;
   padding: 15px 30px;
   letter-spacing: var(--letterSpacing);
-  font: 700 var(--primaryTextSize) Roboto, sans-serif;
+  font: 700 var(--primaryTextSize) Orbitron, sans-serif;
   border-radius: var(--radius);
   cursor: pointer;
   overflow: hidden;

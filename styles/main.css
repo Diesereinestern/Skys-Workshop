@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
 @font-face {
   font-family: Roboto;
   font-weight: 400;
@@ -30,9 +32,9 @@
 }
 
 :root {
-  --primaryColor: #FF0000;
-  --primaryBoldColor: #af0202;
-  --primaryBlackColor: #9b0101;
+  --primaryColor: #8F00FF;
+  --primaryBoldColor: #9000ffb2;
+  --primaryBlackColor: #9000ff80;
   --secondaryColor: #ffffff;
   --opaqueBackground: #000000e6;
   --mainCanvasBackground: #141414;
@@ -59,7 +61,7 @@ ul {
 
 li {
   color: var(--secondaryColor);
-  font: 600 15px Roboto, sans-serif;
+  font: 600 15px Orbitron, sans-serif;
   text-align: left;
 }
 li::before {
@@ -134,7 +136,7 @@ canvas {
 }
 
 .loader__text {
-  font: 900 11vw Roboto, sans-serif;
+  font: 900 9vw Orbitron;
   position: relative;
   letter-spacing: 20px;
   color: var(--primaryColor);
@@ -180,7 +182,7 @@ canvas {
 .menu-list__item {
   color: var(--secondaryColor);
   position: relative;
-  font: 900 120px Roboto, sans-serif;
+  font: 900 120px Orbitron, sans-serif;
   letter-spacing: var(--letterSpacing);
   cursor: pointer;
   padding-left: 30px;
@@ -257,7 +259,7 @@ canvas {
   opacity: 0;
   transform: translateY(50px);
   color: var(--secondaryColor);
-  font: 800 40px Roboto, sans-serif;
+  font: 800 40px Orbitron;
   margin-bottom: 0;
 }
 
@@ -338,7 +340,7 @@ iframe {
 
 .fixed-content-header__logo {
   color: var(--secondaryColor);
-  font: 900 35px Roboto, sans-serif;
+  font: 900 35px Agency FB, sans-serif;
   letter-spacing: 20px;
   user-select: none;
   margin-left: 30px;
@@ -432,7 +434,7 @@ iframe {
 }
 
 .configuration__letters-text {
-  font: 900 11vw Roboto, sans-serif;
+  font: 900 11vw Orbitron, sans-serif;
   position: relative;
   letter-spacing: 20px;
   color: var(--primaryColor);
@@ -464,7 +466,7 @@ iframe {
   display: inline-block;
   margin-right: 10px;
   color: var(--secondaryColor);
-  font: 600 var(--primaryTextSize) Roboto, sans-serif;
+  font: 600 var(--primaryTextSize) Orbitron;
   animation: scrollLetterDrops 4s linear forwards infinite;
 }
 .scroll-letters__letter::after {
@@ -504,7 +506,7 @@ iframe {
 
 .fixed-content-footer__copy {
   color: var(--secondaryColor);
-  font: 600 var(--primaryTextSize) Roboto, sans-serif;
+  font: 600 var(--primaryTextSize) Orbitron;
 }
 
 /***** MAIN CONTENT SECTIONS *****/
@@ -589,7 +591,7 @@ iframe {
 .content-section__title {
   position: relative;
   color: var(--secondaryColor);
-  font: 800 40px Roboto, sans-serif;
+  font: 800 40px Orbitron;
   transform: translate3d(0, 0, 0);
   transition: var(--contentTransitionDuration) 300ms var(--contentTransitionBezier);
 }
@@ -597,7 +599,7 @@ iframe {
 .content-section__text {
   width: 70%;
   color: var(--secondaryColor);
-  font: 600 20px Roboto, sans-serif;
+  font: 600 20px Orbitron, sans-serif;
   margin-bottom: 50px;
   transform: translate3d(0, 0, 0);
   transition: var(--contentTransitionDuration) 500ms var(--contentTransitionBezier);
@@ -809,7 +811,7 @@ iframe {
 }
 
 .content-portfolio__name {
-  font: 600 20px Roboto, sans-serif;
+  font: 600 20px Orbitron, sans-serif;
   position: absolute;
   bottom: 0;
   left: 25px;
@@ -834,7 +836,7 @@ iframe {
 
 @media only screen and (max-width: 1200px) {
   .menu-list__item {
-    font: 900 9vw Roboto, sans-serif;
+    font: 900 9vw Orbitron, sans-serif;
   }
 
   .content-section__image-holder {
