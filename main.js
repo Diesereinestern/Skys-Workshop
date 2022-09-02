@@ -1,23 +1,6 @@
 
-const configuration = {
-  SiteName: "Sky's Workshop",
-  Use2DTextOver3D: false,
-  SiteNameSize: 0.6,
-  NumberOfVerticalLines: 30,
-  NumberOfDots: 10000,
-  colors: {
-      CanvasBackgroundColor: "#141414",
-      LettersColor: "#8F00FF",
-      LinesColors: ["#8F00FF", "#8F00FF", "#5e00a8"],
-      LowerLinesColors: ["#8F00FF"],
-      DotsColor: "#8F00FF"
-  }
-}
-///////////////////////////////
-
-
 // Import all needed dependencies.
-// import { config } from './config.js'
+import { configuration } from './config.js' 
 import * as THREE from './ext/three.module.min.js'
 import TWEEN from './ext/tween.js'
 import UI from './ui.js'

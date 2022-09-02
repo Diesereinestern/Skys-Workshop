@@ -36,7 +36,7 @@
   --primaryBoldColor: #9000ffb2;
   --primaryBlackColor: #9000ff80;
   --secondaryColor: #ffffff;
-  --opaqueBackground: #000000e6;
+  --opaqueBackground: #9000ffb2000e6;
   --mainCanvasBackground: #141414;
   --primaryTextSize: 15px;
   --primaryTextSizeS: 10px;
@@ -249,7 +249,7 @@ canvas {
   width: 70%;
   height: 70%;
   padding: 50px 100px;
-  background: #00000070;
+  background: #9000;
   filter: drop-shadow(2px 4px 100px #1b1b1be6);
   overflow: hidden;
   overflow-y: auto;
@@ -542,6 +542,31 @@ iframe {
   opacity: 0;
   transform: translate3d(0, -100%, 0);
 }
+.content-section__title__shadow {
+  text-shadow: 1px 1px 0 #9000ffb2,
+    -1px 1px 0 #9000ffb2,
+    1px -1px 0 #9000ffb2,
+    -1px -1px 0 #9000ffb2,
+    0px 1px 0 #9000ffb2,
+    0px -1px 0 #9000ffb2,
+    -1px 0px 0 #9000ffb2,
+    1px 0px 0 #9000ffb2,
+    2px 2px 0 #9000ffb2,
+    -2px 2px 0 #9000ffb2,
+    2px -2px 0 #9000ffb2,
+    -2px -2px 0 #9000ffb2,
+    0px 2px 0 #9000ffb2,
+    0px -2px 0 #9000ffb2,
+    -2px 0px 0 #9000ffb2,
+    2px 0px 0 #9000ffb2,
+    1px 2px 0 #9000ffb2,
+    -1px 2px 0 #9000ffb2,
+    1px -2px 0 #9000ffb2,
+    -1px -2px 0 #9000ffb2,
+    2px 1px 0 #9000ffb2,
+    -2px 1px 0 #9000ffb2,
+    2px -1px 0 #9000ffb2,
+    -2px -1px 0 #9000ffb2}
 
 .content-section.section--hidden .content-section__title,
 .content-section.section--hidden .content-section__text,
@@ -989,3 +1014,5 @@ iframe {
     margin-bottom: 17px;
   }
 }
+
+
